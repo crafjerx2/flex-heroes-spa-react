@@ -34,12 +34,17 @@ export const HeroCard = ({
               <p className="card-text">
                 <small className="text-muted">{first_appearance}</small>
               </p>
-              <Link to={`/hero/${id}`}
-                className="btn btn-success"
-              >
-                Read more...
-              </Link>
+
+
             </div>
+
+          </div>
+          <div className="d-grid mt-1">
+            <Link to={`/hero/${id}`}
+              className="btn btn-success"
+            >
+              Read more...
+            </Link>
           </div>
         </div>
       </div>
