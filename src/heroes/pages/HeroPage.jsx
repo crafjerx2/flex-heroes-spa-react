@@ -8,6 +8,8 @@ export const HeroPage = () => {
 
   const hero = useMemo(() => getHeroById(id), [id]);
 
+  const imageUrl = `./assets/heroes/${id}.jpg`;
+
   const onNavigateBack = () => {
     navidate(-1);
   };
